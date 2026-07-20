@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #0B1523;
+    --foreground: #F5F6F8;
+    --gold: #D4AF37;
+    --gold-light: #F2C96D;
+    --navy: #13243D;
+  }
+
+  html, body {
+    @apply bg-dark text-gray-light antialiased;
+    font-family: 'Inter', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+  }
+
+  .font-numbers {
+    font-family: 'Space Grotesk', monospace;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-white/5 backdrop-blur-md border border-white/10 shadow-xl;
+  }
+  
+  .glass-dark {
+    @apply bg-dark-300/50 backdrop-blur-xl border border-white/5 shadow-2xl;
+  }
+  
+  .text-gradient-gold {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-gold to-gold-light;
+  }
+  
+  .btn-primary {
+    @apply relative overflow-hidden bg-gold text-dark font-semibold px-8 py-3 rounded-full transition-all duration-300 hover:shadow-[0_0_20px_rgba(212,175,55,0.4)] hover:scale-105 active:scale-95;
+  }
+  
+  .btn-outline {
+    @apply relative overflow-hidden border border-gold text-gold font-semibold px-8 py-3 rounded-full transition-all duration-300 hover:bg-gold/10 hover:shadow-[0_0_15px_rgba(212,175,55,0.2)] hover:scale-105 active:scale-95;
+  }
+  
+  .card-premium {
+    @apply relative overflow-hidden rounded-2xl bg-dark-300/50 border border-white/5 p-8 transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(0,0,0,0.5)] hover:border-gold/30;
+  }
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Custom Cursor */
+.custom-cursor {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #D4AF37;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  transition: width 0.2s, height 0.2s, background-color 0.2s;
+}
+
+.custom-cursor-dot {
+  width: 4px;
+  height: 4px;
+  background-color: #D4AF37;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+}
+
+.cursor-hover .custom-cursor {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(212, 175, 55, 0.1);
+}
+
+/* Lenis Scroll */
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
