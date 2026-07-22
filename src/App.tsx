@@ -21,6 +21,7 @@ import PrivacyPolicy from './pages/PrivacyPolicy';
 import Terms from './pages/Terms';
 import Disclaimer from './pages/Disclaimer';
 import Accessibility from './pages/Accessibility';
+import ThankYou from './pages/ThankYou';
 import SEO from './components/SEO';
 
 function App() {
@@ -65,6 +66,7 @@ function App() {
         <Route path="terms" element={<Terms />} />
         <Route path="disclaimer" element={<Disclaimer />} />
         <Route path="accessibility" element={<Accessibility />} />
+        <Route path="thank-you" element={<ThankYou />} />
         <Route path="*" element={<div className="h-screen flex items-center justify-center text-4xl font-heading text-gold"><SEO title="404 - Not Found | KBrown Consultant" description="The page you are looking for does not exist." noindex={true} />404 - Not Found</div>} />
       </Route>
     </Routes>
