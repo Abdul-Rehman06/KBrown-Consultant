@@ -28,11 +28,21 @@ export interface CreateOrUpdateResourcePayload {
 }
 
 async function apiFetch<T>(url: string, init?: RequestInit): Promise<T> {
-  const res = await fetch(url, init);
+  const headers = new Headers(init?.headers);
+  if (!headers.has('Accept')) headers.set('Accept', 'application/json');
+
+  const res = await fetch(url, { ...init, headers });
   if (!res.ok) {
     const text = await res.text();
     throw new Error(text || `Request failed: ${res.status}`);
   }
+
+  const contentType = res.headers.get('content-type') ?? '';
+  if (!contentType.toLowerCase().includes('application/json')) {
+    const text = await res.text();
+    throw new Error(text || 'Invalid response from server');
+  }
+
   return res.json() as Promise<T>;
 }
 
