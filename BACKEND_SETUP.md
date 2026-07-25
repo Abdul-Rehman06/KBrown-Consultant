@@ -49,7 +49,7 @@ php artisan serve --host=127.0.0.1 --port=8001
 ```
 
 ### 5) Run React frontend
-React uses `/api/...` endpoints. For local dev, Vite proxies `/api` to `http://127.0.0.1:8001` via [vite.config.ts](file:///c:/xampp/htdocs/kbrown/vite.config.ts).
+React uses `/api/...` endpoints. For local dev, Vite proxies `/api` to `http://127.0.0.1:8001` and rewrites the `/api` prefix via [vite.config.ts](file:///c:/xampp/htdocs/kbrown/vite.config.ts).
 
 ```bash
 npm install
@@ -64,7 +64,7 @@ npm run dev
 
 Goal:
 - React stays in `public_html/` (static)
-- Laravel backend lives inside `public_html/api/`
+- Laravel backend is served under `/api`
 - React calls `https://kbrownconsultant.com/api/...`
 
 High-level steps:
@@ -74,4 +74,3 @@ High-level steps:
 4) Run `php artisan migrate --seed` on server (needs SSH + PHP + Composer access)
 
 If your Hostinger plan does not allow Composer/Artisan, the alternative is to deploy the backend to a VPS or a PHP host that supports Composer, and keep the frontend on Hostinger.
-
