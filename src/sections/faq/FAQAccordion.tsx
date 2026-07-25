@@ -6,8 +6,8 @@ import { twMerge } from 'tailwind-merge';
 
 const faqs = [
   {
-    question: "What does KBrown Consultant do?",
-    answer: "KBrown Consultant provides educational resources, personalized consultations, and strategic guidance related to business funding, financial education, and business growth. Our goal is to help individuals and business owners better understand their options and make informed financial decisions."
+    question: "What does KBrown Consultant Group LLC do?",
+    answer: "KBrown Consultant Group LLC provides educational resources, personalized consultations, and strategic guidance related to business funding, financial education, and business growth. Our goal is to help individuals and business owners better understand their options and make informed financial decisions."
   },
   {
     question: "How do I schedule a consultation?",

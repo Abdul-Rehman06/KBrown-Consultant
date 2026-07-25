@@ -16,7 +16,7 @@ export default function TermsContent() {
           </p>
 
           <p>
-            Welcome to KBrown Consultant. These Terms & Conditions ("Terms") govern your access to and use of our website, educational resources, consultations, and related services.
+            Welcome to KBrown Consultant Group LLC. These Terms & Conditions ("Terms") govern your access to and use of our website, educational resources, consultations, and related services.
           </p>
           <p>
             By accessing or using this website, you agree to comply with these Terms. If you do not agree, please discontinue use of the website.
@@ -29,7 +29,7 @@ export default function TermsContent() {
 
           <h3 className="text-2xl font-heading text-white mt-10 mb-4">Educational Purpose</h3>
           <p>
-            The information, resources, guides, articles, consultations, and materials provided by KBrown Consultant are intended solely for informational and educational purposes.
+            The information, resources, guides, articles, consultations, and materials provided by KBrown Consultant Group LLC are intended solely for informational and educational purposes.
           </p>
           <p>
             Nothing on this website should be interpreted as legal, tax, accounting, investment, lending, financial, or credit repair advice.
@@ -51,7 +51,7 @@ export default function TermsContent() {
 
           <h3 className="text-2xl font-heading text-white mt-10 mb-4">No Guarantee of Results</h3>
           <p>Every individual's financial situation is different.</p>
-          <p>KBrown Consultant makes no guarantees regarding:</p>
+          <p>KBrown Consultant Group LLC makes no guarantees regarding:</p>
           <ul className="list-disc pl-6 space-y-2 text-white/70">
             <li>Funding approvals</li>
             <li>Loan eligibility</li>
@@ -92,7 +92,7 @@ export default function TermsContent() {
             <li>Layouts</li>
           </ul>
           <p className="mt-4">
-            is the intellectual property of KBrown Consultant and is protected by applicable copyright, trademark, and intellectual property laws.
+            is the intellectual property of KBrown Consultant Group LLC and is protected by applicable copyright, trademark, and intellectual property laws.
           </p>
           <p>
             No content may be copied, reproduced, modified, distributed, or used without prior written permission.
@@ -104,13 +104,13 @@ export default function TermsContent() {
             <li>Provide accurate information when submitting forms.</li>
             <li>Use the website only for lawful purposes.</li>
             <li>Refrain from attempting unauthorized access to our systems.</li>
-            <li>Respect the intellectual property rights of KBrown Consultant.</li>
+            <li>Respect the intellectual property rights of KBrown Consultant Group LLC.</li>
             <li>Avoid transmitting harmful software, malware, or malicious code.</li>
           </ul>
 
           <h3 className="text-2xl font-heading text-white mt-10 mb-4">Limitation of Liability</h3>
           <p>
-            To the fullest extent permitted by law, KBrown Consultant shall not be liable for any direct, indirect, incidental, consequential, special, or punitive damages arising from:
+            To the fullest extent permitted by law, KBrown Consultant Group LLC shall not be liable for any direct, indirect, incidental, consequential, special, or punitive damages arising from:
           </p>
           <ul className="list-disc pl-6 space-y-2 text-white/70">
             <li>Your use of this website</li>
@@ -125,7 +125,7 @@ export default function TermsContent() {
 
           <h3 className="text-2xl font-heading text-white mt-10 mb-4">Indemnification</h3>
           <p>
-            You agree to indemnify and hold harmless KBrown Consultant, its owners, employees, affiliates, contractors, and representatives from any claims, damages, losses, liabilities, costs, or expenses arising from your misuse of the website or violation of these Terms.
+            You agree to indemnify and hold harmless KBrown Consultant Group LLC, its owners, employees, affiliates, contractors, and representatives from any claims, damages, losses, liabilities, costs, or expenses arising from your misuse of the website or violation of these Terms.
           </p>
 
           <h3 className="text-2xl font-heading text-white mt-10 mb-4">Website Availability</h3>
@@ -141,13 +141,13 @@ export default function TermsContent() {
 
           <h3 className="text-2xl font-heading text-white mt-10 mb-4">Governing Law</h3>
           <p>
-            These Terms & Conditions shall be governed by and interpreted in accordance with the laws of the jurisdiction in which KBrown Consultant operates, without regard to conflict of law principles.
+            These Terms & Conditions shall be governed by and interpreted in accordance with the laws of the jurisdiction in which KBrown Consultant Group LLC operates, without regard to conflict of law principles.
           </p>
 
           <h3 className="text-2xl font-heading text-white mt-10 mb-4">Contact Information</h3>
           <p>If you have questions regarding these Terms & Conditions, please contact us.</p>
           <div className="bg-black/20 p-6 rounded-xl border border-white/5 my-6">
-            <p className="mb-2 text-white"><strong>KBrown Consultant</strong></p>
+            <p className="mb-2 text-white"><strong>KBrown Consultant Group LLC</strong></p>
             <p className="mb-2"><strong className="text-white/60">Email:</strong> <a href="mailto:support@kbrownconsultant.com" className="text-[#D4AF37] hover:underline">support@kbrownconsultant.com</a></p>
             <p className="mb-2"><strong className="text-white/60">Phone:</strong> <a href="tel:0000000000" className="text-[#D4AF37] hover:underline">(000) 000-0000</a></p>
             <p className="mb-0"><strong className="text-white/60">Website:</strong> <a href="https://www.kbrownconsultant.com" target="_blank" rel="noopener noreferrer" className="text-[#D4AF37] hover:underline">www.kbrownconsultant.com</a></p>
@@ -156,7 +156,7 @@ export default function TermsContent() {
           <div className="my-12 p-8 rounded-2xl bg-[#D4AF37]/10 border border-[#D4AF37]/20">
             <h3 className="text-2xl font-heading text-[#D4AF37] mt-0 mb-4">Agreement</h3>
             <p className="text-white/90 mb-0">
-              By continuing to use this website, you acknowledge that you have read, understood, and agreed to these Terms & Conditions. Thank you for visiting KBrown Consultant and for trusting us as a source of educational resources and professional guidance.
+              By continuing to use this website, you acknowledge that you have read, understood, and agreed to these Terms & Conditions. Thank you for visiting KBrown Consultant Group LLC and for trusting us as a source of educational resources and professional guidance.
             </p>
           </div>
         </motion.div>

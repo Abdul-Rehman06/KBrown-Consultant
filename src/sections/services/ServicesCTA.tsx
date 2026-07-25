@@ -26,7 +26,7 @@ export default function ServicesCTA() {
             transition={{ delay: 0.1 }}
             className="text-lg text-white/70 mb-10 max-w-2xl mx-auto leading-relaxed"
           >
-            Whether you're exploring funding opportunities, expanding your financial knowledge, or seeking strategic guidance for your business, KBrown Consultant is here to support your journey through education, transparency, and personalized consultations.
+            Whether you're exploring funding opportunities, expanding your financial knowledge, or seeking strategic guidance for your business, KBrown Consultant Group LLC is here to support your journey through education, transparency, and personalized consultations.
           </motion.p>
 
           <motion.p 
@@ -63,7 +63,7 @@ export default function ServicesCTA() {
             className="pt-10 border-t border-white/10"
           >
             <p className="text-sm text-white/50 text-left leading-relaxed">
-              <strong className="text-white/70 font-semibold">Disclaimer:</strong> The services provided by KBrown Consultant are intended for educational and informational purposes only. We do not guarantee funding approvals, credit score improvements, financial outcomes, or business results. Individual circumstances vary, and consultations should not be considered legal, tax, investment, lending, or credit repair advice. Third-party services and funding opportunities are subject to their own eligibility requirements, terms, and conditions.
+              <strong className="text-white/70 font-semibold">Disclaimer:</strong> The services provided by KBrown Consultant Group LLC are intended for educational and informational purposes only. We do not guarantee funding approvals, credit score improvements, financial outcomes, or business results. Individual circumstances vary, and consultations should not be considered legal, tax, investment, lending, or credit repair advice. Third-party services and funding opportunities are subject to their own eligibility requirements, terms, and conditions.
             </p>
           </motion.div>
         </div>

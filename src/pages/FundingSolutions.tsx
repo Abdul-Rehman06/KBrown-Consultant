@@ -25,7 +25,7 @@ export default function FundingSolutions() {
   return (
     <div className="bg-dark min-h-screen">
       <SEO 
-        title="Business Funding Guidance | KBrown Consultant"
+        title="Business Funding Guidance | KBrown Consultant Group LLC"
         description="Learn about business funding readiness, explore financial concepts, and receive strategic guidance to help you navigate funding opportunities with confidence."
       />
       <FundingHero />

@@ -18,8 +18,8 @@ export default function Terms() {
   return (
     <main className="bg-[#0B1523] min-h-screen">
       <SEO 
-        title="Terms & Conditions | KBrown Consultant"
-        description="Read the Terms and Conditions for KBrown Consultant. Understand the rules and guidelines for using our website and services."
+        title="Terms & Conditions | KBrown Consultant Group LLC"
+        description="Read the Terms and Conditions for KBrown Consultant Group LLC. Understand the rules and guidelines for using our website and services."
       />
       <TermsHero />
       <TermsContent />

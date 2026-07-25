@@ -54,7 +54,7 @@ export default function WhyChooseUs() {
         >
           <h2 className="text-4xl md:text-5xl font-heading font-bold text-white">
             Why Clients Choose <br className="hidden md:block" />
-            <span className="text-gold italic">KBrown Consultant</span>
+            <span className="text-gold italic">KBrown Consultant Group LLC</span>
           </h2>
         </motion.div>
 

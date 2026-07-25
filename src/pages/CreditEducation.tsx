@@ -25,7 +25,7 @@ export default function CreditEducation() {
   return (
     <div className="bg-dark min-h-screen">
       <SEO 
-        title="Credit Education | KBrown Consultant"
+        title="Credit Education | KBrown Consultant Group LLC"
         description="Build a stronger financial foundation through our comprehensive credit education resources. Learn the fundamentals of personal and business credit."
       />
       <CreditHero />

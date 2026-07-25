@@ -51,10 +51,10 @@ export default function CreditHero() {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6 mt-10"
           >
-            <Link to="/resources" className="btn-primary w-full sm:w-auto flex items-center justify-center group px-8 py-3">
-              Explore Resources
+            <a href="https://kbrownconsultantgroupllc.getcredithelpnow.com/billing" target="_blank" rel="noopener noreferrer" className="btn-primary w-full sm:w-auto flex items-center justify-center group px-8 py-3">
+              Get Started For $0
               <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </Link>
+            </a>
             <Link to="/book-consultation" className="btn-outline w-full sm:w-auto flex items-center justify-center px-8 py-3">
               Book Consultation
             </Link>

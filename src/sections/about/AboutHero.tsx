@@ -21,7 +21,7 @@ export default function AboutHero() {
           >
             <Star className="w-4 h-4 text-[#D4AF37] fill-[#D4AF37]" />
             <span className="text-sm font-medium text-[#D4AF37] tracking-wide uppercase">
-              About KBrown Consultant
+              About KBrown Consultant Group LLC
             </span>
           </motion.div>
 
@@ -41,7 +41,7 @@ export default function AboutHero() {
             className="space-y-6 text-lg text-white/70 max-w-3xl mx-auto leading-relaxed"
           >
             <p>
-              At KBrown Consultant, we believe that financial confidence starts with knowledge. Our mission is to provide educational resources, strategic guidance, and personalized consultations that empower individuals and business owners to better understand funding opportunities, financial planning, and credit education.
+              At KBrown Consultant Group LLC, we believe that financial confidence starts with knowledge. Our mission is to provide educational resources, strategic guidance, and personalized consultations that empower individuals and business owners to better understand funding opportunities, financial planning, and credit education.
             </p>
             <p>
               Every client's situation is unique, which is why our approach focuses on education, transparency, and long-term financial growth rather than one-size-fits-all solutions.

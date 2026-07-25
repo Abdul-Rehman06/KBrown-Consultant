@@ -21,8 +21,8 @@ export default function SuccessStories() {
   return (
     <main className="bg-[#0B1523] min-h-screen">
       <SEO 
-        title="Success Stories | KBrown Consultant"
-        description="Read about the meaningful conversations and lasting confidence our clients experience through KBrown Consultant's personalized guidance."
+        title="Success Stories | KBrown Consultant Group LLC"
+        description="Read about the meaningful conversations and lasting confidence our clients experience through KBrown Consultant Group LLC's personalized guidance."
       />
       <SuccessHero />
       <SuccessTestimonials />

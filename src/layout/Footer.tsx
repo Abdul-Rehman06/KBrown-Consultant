@@ -19,8 +19,8 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <Link to="/" className="flex items-center space-x-3 mb-6 group">
               <img 
-                src="/logo-main.png" 
-                alt="KBrown Consultant Logo" 
+                src="/logo-new.png" 
+                alt="KBrown Consultant Group LLC Logo" 
                 className="h-20 w-22 object-contain transition-transform duration-300 group-hover:scale-105"
               />
             </Link>
@@ -75,7 +75,7 @@ export default function Footer() {
 
         <div className="flex flex-col items-center justify-center pt-8 border-t border-white/10 text-center">
           <p className="text-gray text-sm mb-6">
-            &copy; {new Date().getFullYear()} KBrown Consultant. All Rights Reserved.
+            &copy; {new Date().getFullYear()} KBrown Consultant Group LLC. All Rights Reserved.
           </p>
           
           <div className="text-[10px] text-gray/50 max-w-5xl leading-relaxed">

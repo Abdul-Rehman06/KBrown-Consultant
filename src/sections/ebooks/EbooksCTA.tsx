@@ -78,7 +78,7 @@ export default function EbooksCTA() {
           className="max-w-5xl mx-auto pt-12 border-t border-[#0B1523]/10 text-center"
         >
           <p className="text-sm text-[#0B1523]/60 leading-relaxed font-medium">
-            <strong className="text-[#0B1523]">Disclaimer:</strong> The eBooks and educational materials available through KBrown Consultant are provided for informational and educational purposes only. They do not constitute legal, tax, financial, lending, or credit repair advice. Readers should make decisions based on their individual circumstances and consult qualified professionals when appropriate. Access to these resources does not guarantee any specific financial, funding, or credit-related outcome.
+            <strong className="text-[#0B1523]">Disclaimer:</strong> The eBooks and educational materials available through KBrown Consultant Group LLC are provided for informational and educational purposes only. They do not constitute legal, tax, financial, lending, or credit repair advice. Readers should make decisions based on their individual circumstances and consult qualified professionals when appropriate. Access to these resources does not guarantee any specific financial, funding, or credit-related outcome.
           </p>
         </motion.div>
       </div>

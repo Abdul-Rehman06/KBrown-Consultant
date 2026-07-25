@@ -69,7 +69,7 @@ export default function AboutStoryMission() {
               className="space-y-6 text-lg text-gray-light leading-relaxed"
             >
               <p className="font-medium text-white">
-                KBrown Consultant was created with one simple goal:
+                KBrown Consultant Group LLC was created with one simple goal:
               </p>
               <p>
                 To make financial education and strategic guidance more accessible for individuals and business owners looking to make informed financial decisions.

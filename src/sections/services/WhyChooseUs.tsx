@@ -23,7 +23,7 @@ export default function WhyChooseUs() {
             viewport={{ once: true }}
             className="text-3xl md:text-5xl font-heading font-bold text-white mb-6"
           >
-            Why Choose <span className="text-[#D4AF37]">KBrown Consultant?</span>
+            Why Choose <span className="text-[#D4AF37]">KBrown Consultant Group LLC?</span>
           </motion.h2>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
@@ -32,7 +32,7 @@ export default function WhyChooseUs() {
             transition={{ delay: 0.1 }}
             className="text-lg text-white/70 leading-relaxed max-w-3xl mx-auto"
           >
-            Choosing the right consulting partner is about more than services—it's about trust. At KBrown Consultant, we're committed to creating an experience built on professionalism, transparency, and education.
+            Choosing the right consulting partner is about more than services—it's about trust. At KBrown Consultant Group LLC, we're committed to creating an experience built on professionalism, transparency, and education.
           </motion.p>
         </div>
 

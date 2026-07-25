@@ -19,8 +19,8 @@ export default function FAQ() {
   return (
     <main className="bg-[#0B1523] min-h-screen">
       <SEO 
-        title="Frequently Asked Questions | KBrown Consultant"
-        description="Find answers to common questions about KBrown Consultant's educational resources, personalized consultations, and financial guidance."
+        title="Frequently Asked Questions | KBrown Consultant Group LLC"
+        description="Find answers to common questions about KBrown Consultant Group LLC's educational resources, personalized consultations, and financial guidance."
       />
       <FAQHero />
       <FAQAccordion />

@@ -22,8 +22,8 @@ export default function About() {
   return (
     <div className="bg-dark min-h-screen">
       <SEO 
-        title="About Us | KBrown Consultant"
-        description="Learn about KBrown Consultant's mission to provide education, strategy, and premium financial consulting for entrepreneurs and business owners."
+        title="About Us | KBrown Consultant Group LLC"
+        description="Learn about KBrown Consultant Group LLC's mission to provide education, strategy, and premium financial consulting for entrepreneurs and business owners."
       />
       <AboutHero />
       <AboutStoryMission />

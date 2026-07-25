@@ -111,7 +111,7 @@ export default function SuccessPhilosophy() {
             </div>
             
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading text-white mb-8 leading-tight">
-              Why Clients Choose <span className="text-[#D4AF37]">KBrown Consultant</span>
+              Why Clients Choose <span className="text-[#D4AF37]">KBrown Consultant Group LLC</span>
             </h2>
             
             <div className="space-y-6 text-lg text-white/70 leading-relaxed">

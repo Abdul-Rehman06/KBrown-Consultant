@@ -40,7 +40,7 @@ export default function DisclaimerHero() {
             className="text-lg text-white/70 max-w-3xl mx-auto leading-relaxed"
           >
             <p>
-              Please read this disclaimer carefully before using the KBrown Consultant website or services.
+              Please read this disclaimer carefully before using the KBrown Consultant Group LLC website or services.
             </p>
           </motion.div>
         </div>

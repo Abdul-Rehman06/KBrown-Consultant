@@ -18,8 +18,8 @@ export default function Accessibility() {
   return (
     <main className="bg-[#0B1523] min-h-screen">
       <SEO 
-        title="Accessibility Statement | KBrown Consultant"
-        description="KBrown Consultant is committed to providing an accessible website experience for all users. Read our accessibility statement and guidelines."
+        title="Accessibility Statement | KBrown Consultant Group LLC"
+        description="KBrown Consultant Group LLC is committed to providing an accessible website experience for all users. Read our accessibility statement and guidelines."
       />
       <AccessibilityHero />
       <AccessibilityContent />

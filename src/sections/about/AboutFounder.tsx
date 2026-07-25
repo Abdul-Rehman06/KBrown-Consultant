@@ -50,7 +50,7 @@ export default function AboutFounder() {
               className="space-y-6 text-lg text-gray-light leading-relaxed"
             >
               <p className="font-medium text-white text-xl border-l-2 border-gold pl-6 py-2">
-                KBrown Consultant is led by a commitment to helping individuals and businesses navigate financial topics with confidence.
+                KBrown Consultant Group LLC is led by a commitment to helping individuals and businesses navigate financial topics with confidence.
               </p>
               <p>
                 Through education, strategic thinking, and a client-first mindset, our goal is to provide practical guidance that helps people better understand financial opportunities and make informed decisions for the future.

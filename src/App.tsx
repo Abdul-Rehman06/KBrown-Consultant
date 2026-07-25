@@ -12,6 +12,7 @@ import FundingSolutions from './pages/FundingSolutions';
 import CreditEducation from './pages/CreditEducation';
 import Resources from './pages/Resources';
 import Ebooks from './pages/Ebooks';
+import Guides from './pages/Guides';
 import BookConsultation from './pages/BookConsultation';
 import Services from './pages/Services';
 import SuccessStories from './pages/SuccessStories';
@@ -22,6 +23,8 @@ import Terms from './pages/Terms';
 import Disclaimer from './pages/Disclaimer';
 import Accessibility from './pages/Accessibility';
 import ThankYou from './pages/ThankYou';
+import AdminLogin from './pages/admin/AdminLogin';
+import AdminDashboard from './pages/admin/AdminDashboard';
 import SEO from './components/SEO';
 
 function App() {
@@ -50,6 +53,8 @@ function App() {
 
   return (
     <Routes>
+      <Route path="/admin/login" element={<AdminLogin />} />
+      <Route path="/admin" element={<AdminDashboard />} />
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
         <Route path="about" element={<About />} />
@@ -59,6 +64,7 @@ function App() {
         <Route path="success-stories" element={<SuccessStories />} />
         <Route path="resources" element={<Resources />} />
         <Route path="ebooks" element={<Ebooks />} />
+        <Route path="guides" element={<Guides />} />
         <Route path="faq" element={<FAQ />} />
         <Route path="contact" element={<Contact />} />
         <Route path="book-consultation" element={<BookConsultation />} />
@@ -67,7 +73,7 @@ function App() {
         <Route path="disclaimer" element={<Disclaimer />} />
         <Route path="accessibility" element={<Accessibility />} />
         <Route path="thank-you" element={<ThankYou />} />
-        <Route path="*" element={<div className="h-screen flex items-center justify-center text-4xl font-heading text-gold"><SEO title="404 - Not Found | KBrown Consultant" description="The page you are looking for does not exist." noindex={true} />404 - Not Found</div>} />
+        <Route path="*" element={<div className="h-screen flex items-center justify-center text-4xl font-heading text-gold"><SEO title="404 - Not Found | KBrown Consultant Group LLC" description="The page you are looking for does not exist." noindex={true} />404 - Not Found</div>} />
       </Route>
     </Routes>
   );

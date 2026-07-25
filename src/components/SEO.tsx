@@ -9,9 +9,9 @@ interface SEOProps {
 }
 
 export default function SEO({ 
-  title = "KBrown Consultant | Premium Financial Consulting", 
-  description = "KBrown Consultant provides premium financial education, business funding guidance, and strategic consulting for entrepreneurs and growing businesses.", 
-  name = "KBrown Consultant", 
+  title = "KBrown Consultant Group LLC | Premium Financial Consulting", 
+  description = "KBrown Consultant Group LLC provides premium financial education, business funding guidance, and strategic consulting for entrepreneurs and growing businesses.", 
+  name = "KBrown Consultant Group LLC", 
   type = "website",
   noindex = false
 }: SEOProps) {

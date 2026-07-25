@@ -16,8 +16,8 @@ export default function Home() {
   return (
     <div className="bg-dark">
       <SEO 
-        title="KBrown Consultant | Premium Financial Consulting & Education"
-        description="Transform your financial future with KBrown Consultant. We offer premium business funding guidance, credit education, and strategic financial consulting."
+        title="KBrown Consultant Group LLC | Premium Financial Consulting & Education"
+        description="Transform your financial future with KBrown Consultant Group LLC. We offer premium business funding guidance, credit education, and strategic financial consulting."
       />
       <Hero />
       <Services />

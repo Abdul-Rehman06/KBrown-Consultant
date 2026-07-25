@@ -21,7 +21,7 @@ export default function Services() {
   return (
     <main className="bg-[#0B1523] min-h-screen">
       <SEO 
-        title="Our Services | KBrown Consultant"
+        title="Our Services | KBrown Consultant Group LLC"
         description="Explore our strategic financial guidance, business funding education, credit education, and personalized consulting services."
       />
       <ServicesHero />

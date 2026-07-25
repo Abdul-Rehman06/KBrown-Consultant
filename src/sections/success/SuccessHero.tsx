@@ -42,7 +42,7 @@ export default function SuccessHero() {
             className="space-y-6 text-lg text-white/70 max-w-3xl mx-auto leading-relaxed"
           >
             <p>
-              Every financial journey is different, and so is every conversation we have. At KBrown Consultant, our focus is on providing professional guidance, educational resources, and personalized support that helps clients better understand their options and move forward with confidence.
+              Every financial journey is different, and so is every conversation we have. At KBrown Consultant Group LLC, our focus is on providing professional guidance, educational resources, and personalized support that helps clients better understand their options and move forward with confidence.
             </p>
             <p>
               We believe that informed decisions begin with honest conversations, thoughtful planning, and a commitment to long-term financial growth.

@@ -73,7 +73,7 @@ export default function ContactCTA() {
           className="max-w-5xl mx-auto pt-12 border-t border-[#0B1523]/10 text-center"
         >
           <p className="text-sm text-[#0B1523]/60 leading-relaxed font-medium">
-            <strong className="text-[#0B1523]">Disclaimer:</strong> The information submitted through this contact form is used solely to respond to your inquiry and provide requested information. Contacting KBrown Consultant does not establish a client relationship, nor does it guarantee eligibility for any financial product, funding opportunity, or specific outcome. All consultations and educational resources are provided for informational purposes only.
+            <strong className="text-[#0B1523]">Disclaimer:</strong> The information submitted through this contact form is used solely to respond to your inquiry and provide requested information. Contacting KBrown Consultant Group LLC does not establish a client relationship, nor does it guarantee eligibility for any financial product, funding opportunity, or specific outcome. All consultations and educational resources are provided for informational purposes only.
           </p>
         </motion.div>
       </div>

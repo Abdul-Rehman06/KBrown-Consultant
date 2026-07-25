@@ -18,8 +18,8 @@ export default function Disclaimer() {
   return (
     <main className="bg-[#0B1523] min-h-screen">
       <SEO 
-        title="Disclaimer | KBrown Consultant"
-        description="Review the KBrown Consultant disclaimer. Information provided is for educational purposes only and does not constitute financial, legal, or professional advice."
+        title="Disclaimer | KBrown Consultant Group LLC"
+        description="Review the KBrown Consultant Group LLC disclaimer. Information provided is for educational purposes only and does not constitute financial, legal, or professional advice."
       />
       <DisclaimerHero />
       <DisclaimerContent />

@@ -42,7 +42,7 @@ export default function BookingWhyUs() {
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 backdrop-blur-md mb-6"
           >
             <span className="text-sm font-medium text-[#D4AF37] tracking-wide uppercase">
-              Why Clients Choose KBrown Consultant
+              Why Clients Choose KBrown Consultant Group LLC
             </span>
           </motion.div>
 

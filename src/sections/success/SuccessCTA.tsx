@@ -75,7 +75,7 @@ export default function SuccessCTA() {
           className="max-w-5xl mx-auto pt-12 border-t border-[#0B1523]/10 text-center"
         >
           <p className="text-sm text-[#0B1523]/60 leading-relaxed font-medium">
-            <strong className="text-[#0B1523]">Disclaimer:</strong> Testimonials shown on this website represent individual experiences and are provided for informational purposes only. Individual experiences and outcomes vary based on personal circumstances. KBrown Consultant does not guarantee any specific financial, funding, or credit-related results. The information provided through consultations and educational resources is intended for informational and educational purposes only.
+            <strong className="text-[#0B1523]">Disclaimer:</strong> Testimonials shown on this website represent individual experiences and are provided for informational purposes only. Individual experiences and outcomes vary based on personal circumstances. KBrown Consultant Group LLC does not guarantee any specific financial, funding, or credit-related results. The information provided through consultations and educational resources is intended for informational and educational purposes only.
           </p>
         </motion.div>
       </div>

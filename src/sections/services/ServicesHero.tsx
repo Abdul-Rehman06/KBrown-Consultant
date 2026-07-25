@@ -41,7 +41,7 @@ export default function ServicesHero() {
             className="space-y-6 text-lg text-white/70 max-w-3xl mx-auto leading-relaxed"
           >
             <p>
-              At KBrown Consultant, we believe every financial journey is unique. That's why our services are built around education, personalized consultations, and practical guidance that empowers individuals and business owners to make informed financial decisions.
+              At KBrown Consultant Group LLC, we believe every financial journey is unique. That's why our services are built around education, personalized consultations, and practical guidance that empowers individuals and business owners to make informed financial decisions.
             </p>
             <p>
               Whether you're exploring funding opportunities, expanding your financial knowledge, or planning your next business move, we're here to help you navigate the process with clarity and confidence.

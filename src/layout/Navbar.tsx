@@ -37,7 +37,7 @@ export default function Navbar() {
       name: 'Resources', 
       dropdown: [
         { name: 'eBooks', path: '/ebooks' },
-        { name: 'Guides', path: '/resources' },
+        { name: 'Guides', path: '/guides' },
       ]
     },
     { name: 'Success Stories', path: '/success-stories' },
@@ -55,8 +55,8 @@ export default function Navbar() {
       <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
         <Link to="/" className="z-50 relative flex items-center space-x-3 group">
           <img 
-            src="/logo-main.png" 
-            alt="KBrown Consultant Logo" 
+              src="/logo-new.png" 
+              alt="KBrown Consultant Group LLC Logo" 
             className="h-20 w-25 object-contain transition-transform duration-300 group-hover:scale-105"
           />
         </Link>

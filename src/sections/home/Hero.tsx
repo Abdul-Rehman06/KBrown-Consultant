@@ -60,7 +60,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.4, ease: [0.22, 1, 0.36, 1] }}
           >
-            Whether you're preparing for funding opportunities, learning how personal and business credit work, or looking for strategic financial guidance, KBrown Consultant provides educational resources and personalized consultations designed to help you make informed decisions.
+            Whether you're preparing for funding opportunities, learning how personal and business credit work, or looking for strategic financial guidance, KBrown Consultant Group LLC provides educational resources and personalized consultations designed to help you make informed decisions.
           </motion.p>
 
           <motion.div 
@@ -73,9 +73,9 @@ export default function Hero() {
               Book Your Consultation
               <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
-            <Link to="/resources" className="btn-outline w-full sm:w-auto flex items-center justify-center group text-base">
-              Explore Resources
-            </Link>
+            <a href="https://kbrownconsultantgroupllc.getcredithelpnow.com/billing" target="_blank" rel="noopener noreferrer" className="btn-outline w-full sm:w-auto flex items-center justify-center group text-base">
+              Get Started For $0
+            </a>
           </motion.div>
         </div>
 

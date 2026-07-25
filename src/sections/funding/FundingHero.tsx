@@ -41,7 +41,7 @@ export default function FundingHero() {
             className="space-y-6 text-lg text-white/70 max-w-3xl mx-auto leading-relaxed"
           >
             <p>
-              Understanding funding options is an important step toward achieving your business goals. At KBrown Consultant, we provide educational guidance and personalized consultations to help you better understand the funding process and prepare for opportunities that align with your objectives.
+              Understanding funding options is an important step toward achieving your business goals. At KBrown Consultant Group LLC, we provide educational guidance and personalized consultations to help you better understand the funding process and prepare for opportunities that align with your objectives.
             </p>
           </motion.div>
 
@@ -51,10 +51,10 @@ export default function FundingHero() {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6 mt-10"
           >
-            <Link to="/book-consultation" className="btn-primary w-full sm:w-auto flex items-center justify-center group px-8 py-3">
-              Explore Your Options
+            <a href="https://kbcnsult.com/funding/" target="_blank" rel="noopener noreferrer" className="btn-primary w-full sm:w-auto flex items-center justify-center group px-8 py-3 text-center">
+              See if you qualify for funding
               <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </Link>
+            </a>
             <Link to="/book-consultation" className="btn-outline w-full sm:w-auto flex items-center justify-center px-8 py-3">
               Book Consultation
             </Link>

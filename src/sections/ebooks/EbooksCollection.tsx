@@ -1,46 +1,11 @@
 import { motion } from 'framer-motion';
-import { Download, FileText, BarChart3, TrendingUp, BookOpen, ShieldCheck } from 'lucide-react';
+import { Download } from 'lucide-react';
 import Tilt from 'react-parallax-tilt';
-
-const ebooks = [
-  {
-    title: "CLOCKED IN, CASHING OUT",
-    description: "The Entrepreneur's Complete Playbook for Building a Business, Growing Your Brand, and Retiring on Your Own Terms. Kevin Brown's personal journey from electrician to 7-business owner fused with the exact social media, marketing, credit, and funding strategies his consulting group uses to turn 9-to-5 workers into business owners.",
-    icon: BarChart3,
-    image: "https://assets.cdn.filesafe.space/ztsVjHfx1vCkkB9BDqg1/media/6a41ab7b89d9cd8dc21cc383.jpg",
-    paymentLink: "https://api.ahriat.com/payment-link/6a41acb1390a6e280643b14b" 
-  },
-  {
-    title: "From 4 A.M. To Freedom",
-    description: "The Blueprint for Turning a 9-to-5 Into Business Ownership. The real story behind 28 years of 4 A.M. alarms, 7 businesses built while working full-time, 9 children raised, and one retirement that happened on Kevin Brown's terms not his employer's.",
-    icon: ShieldCheck,
-    image: "https://assets.cdn.filesafe.space/ztsVjHfx1vCkkB9BDqg1/media/6a41ae21c492ddc24ce27b96.jpg",
-    paymentLink: "https://api.ahriat.com/payment-link/6a41af5f9b12592b36824f76"
-  },
-  {
-    title: "Master Funding Strategies Playbook",
-    description: "The complete credit-to-funding system for entrepreneurs, consultants, and business owners looking to build business credit, access funding, establish banking relationships, and create long-term wealth. Inside this playbook, Kevin Brown reveals the exact systems, strategies, and insider plays used to help entrepreneurs become permanently fundable.",
-    icon: TrendingUp,
-    image: "https://assets.cdn.filesafe.space/ztsVjHfx1vCkkB9BDqg1/media/6a41ae5689d9cd8dc21d34e4.png",
-    paymentLink: "https://api.ahriat.com/payment-link/6a41af99390a6e280643b14d"
-  },
-  {
-    title: "The LLC Blueprint",
-    description: "The complete legal structure, tax strategy, business credit, and wealth-building blueprint every entrepreneur needs to properly build and protect their business. This powerful guide by Kevin Brown walks entrepreneurs step-by-step through forming an LLC, building business credit, accessing funding, understanding tax strategies, and creating generational wealth.",
-    icon: FileText,
-    image: "https://assets.cdn.filesafe.space/ztsVjHfx1vCkkB9BDqg1/media/6a41ae88c492ddc24ce281ae.png",
-    paymentLink: "https://api.ahriat.com/payment-link/6a41b096390a6e280643b150"
-  },
-  {
-    title: "The Approval Code",
-    description: "Banks don't approve people. They approve profiles. Learn the hidden system behind credit, funding, and financial power. The Approval Code by Kevin Brown KBCG.",
-    icon: BookOpen,
-    image: "https://assets.cdn.filesafe.space/ztsVjHfx1vCkkB9BDqg1/media/6a41aed0c492ddc24ce28716.png",
-    paymentLink: "https://api.ahriat.com/payment-link/6a41b0b59b12592b36824f79"
-  },
-];
+import { useResources } from '../../hooks/useResources';
 
 export default function EbooksCollection() {
+  const { items: ebooks } = useResources({ category: 'eBook' });
+
   return (
     <section className="py-24 relative bg-[#0B1523]">
       <div className="container mx-auto px-4">
@@ -60,10 +25,10 @@ export default function EbooksCollection() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
           {ebooks.map((ebook, index) => {
-            const Icon = ebook.icon;
+            const Icon = ebook.Icon;
             return (
               <motion.div
-                key={index}
+                key={ebook.id}
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}

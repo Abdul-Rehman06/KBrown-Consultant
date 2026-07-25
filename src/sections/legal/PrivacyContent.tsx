@@ -16,7 +16,7 @@ export default function PrivacyContent() {
           </p>
 
           <p>
-            At KBrown Consultant ("Company," "we," "our," or "us"), we value your privacy and are committed to protecting the personal information you share with us. This Privacy Policy explains how we collect, use, store, and protect your information when you visit our website or interact with our services.
+            At KBrown Consultant Group LLC ("Company," "we," "our," or "us"), we value your privacy and are committed to protecting the personal information you share with us. This Privacy Policy explains how we collect, use, store, and protect your information when you visit our website or interact with our services.
           </p>
           <p>
             By using this website, you agree to the practices described in this Privacy Policy.
@@ -137,7 +137,7 @@ export default function PrivacyContent() {
           <h3 className="text-2xl font-heading text-white mt-10 mb-4">Contact Us</h3>
           <p>If you have questions about this Privacy Policy or how your information is handled, please contact us.</p>
           <div className="bg-black/20 p-6 rounded-xl border border-white/5 my-6">
-            <p className="mb-2 text-white"><strong>KBrown Consultant</strong></p>
+            <p className="mb-2 text-white"><strong>KBrown Consultant Group LLC</strong></p>
             <p className="mb-2"><strong className="text-white/60">Email:</strong> <a href="mailto:support@kbrownconsultant.com" className="text-[#D4AF37] hover:underline">support@kbrownconsultant.com</a></p>
             <p className="mb-2"><strong className="text-white/60">Phone:</strong> <a href="tel:0000000000" className="text-[#D4AF37] hover:underline">(000) 000-0000</a></p>
             <p className="mb-0"><strong className="text-white/60">Website:</strong> <a href="https://www.kbrownconsultant.com" target="_blank" rel="noopener noreferrer" className="text-[#D4AF37] hover:underline">www.kbrownconsultant.com</a></p>

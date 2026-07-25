@@ -15,7 +15,7 @@ export default function ThankYou() {
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] md:w-[800px] md:h-[800px] bg-[#10B981]/5 rounded-full blur-[120px] pointer-events-none" />
 
       <SEO 
-        title="Payment Successful | KBrown Consultant"
+        title="Payment Successful | KBrown Consultant Group LLC"
         description="Thank you for your purchase. Your secure download link has been emailed to you."
         noindex={true} // We don't want search engines indexing the success page
       />
@@ -28,7 +28,7 @@ export default function ThankYou() {
       >
         {/* Logo */}
         <Link to="/">
-          <img src="/logo.png" alt="KBrown Consultant" className="h-10 md:h-12 mx-auto mb-8 hover:opacity-80 transition-opacity" />
+          <img src="/logo-new.png" alt="KBrown Consultant Group LLC" className="h-10 md:h-12 mx-auto mb-8 hover:opacity-80 transition-opacity" />
         </Link>
 
         {/* Success Icon */}

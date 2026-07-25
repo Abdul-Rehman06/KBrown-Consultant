@@ -21,8 +21,8 @@ export default function Contact() {
   return (
     <main className="bg-[#0B1523] min-h-screen">
       <SEO 
-        title="Contact Us | KBrown Consultant"
-        description="Get in touch with KBrown Consultant for professional financial consulting, business funding guidance, and credit education."
+        title="Contact Us | KBrown Consultant Group LLC"
+        description="Get in touch with KBrown Consultant Group LLC for professional financial consulting, business funding guidance, and credit education."
       />
       <ContactHero />
       <ContactForm />

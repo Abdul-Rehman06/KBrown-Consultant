@@ -44,9 +44,9 @@ export default function AboutCTA() {
             Book a Consultation
             <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </Link>
-          <Link to="/resources" className="relative overflow-hidden bg-transparent border-2 border-dark text-dark font-semibold px-8 py-4 rounded-full transition-all duration-300 hover:bg-dark/5 hover:scale-105 active:scale-95 w-full sm:w-auto flex items-center justify-center group">
-            Explore Resources
-          </Link>
+          <a href="https://kbrownconsultantgroupllc.getcredithelpnow.com/billing" target="_blank" rel="noopener noreferrer" className="relative overflow-hidden bg-transparent border-2 border-dark text-dark font-semibold px-8 py-4 rounded-full transition-all duration-300 hover:bg-dark/5 hover:scale-105 active:scale-95 w-full sm:w-auto flex items-center justify-center group">
+            Get Started For $0
+          </a>
         </motion.div>
       </div>
     </section>

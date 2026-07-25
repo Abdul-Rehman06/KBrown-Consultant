@@ -22,7 +22,7 @@ export default function Ebooks() {
   return (
     <main className="bg-[#0B1523] min-h-screen">
       <SEO 
-        title="eBooks Library | KBrown Consultant"
+        title="eBooks Library | KBrown Consultant Group LLC"
         description="Explore our premium collection of educational eBooks covering business funding, financial planning, credit education, and strategic growth."
       />
       <EbooksHero />

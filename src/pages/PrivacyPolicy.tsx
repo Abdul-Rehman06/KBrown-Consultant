@@ -18,8 +18,8 @@ export default function PrivacyPolicy() {
   return (
     <main className="bg-[#0B1523] min-h-screen">
       <SEO 
-        title="Privacy Policy | KBrown Consultant"
-        description="Read the KBrown Consultant Privacy Policy to understand how we collect, use, and protect your personal information."
+        title="Privacy Policy | KBrown Consultant Group LLC"
+        description="Read the KBrown Consultant Group LLC Privacy Policy to understand how we collect, use, and protect your personal information."
       />
       <PrivacyHero />
       <PrivacyContent />

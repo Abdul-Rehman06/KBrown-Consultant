@@ -16,7 +16,7 @@ export default function AccessibilityContent() {
           </p>
 
           <p>
-            At KBrown Consultant, we believe that everyone should have equal access to information, educational resources, and online services. We are committed to providing a website experience that is inclusive, accessible, and user-friendly for all visitors, regardless of ability or technology.
+            At KBrown Consultant Group LLC, we believe that everyone should have equal access to information, educational resources, and online services. We are committed to providing a website experience that is inclusive, accessible, and user-friendly for all visitors, regardless of ability or technology.
           </p>
           <p>
             Our goal is to continually improve the accessibility and usability of our website while following recognized accessibility standards and best practices.
@@ -88,7 +88,7 @@ export default function AccessibilityContent() {
 
           <h3 className="text-2xl font-heading text-white mt-10 mb-4">Contact Us</h3>
           <div className="bg-black/20 p-6 rounded-xl border border-white/5 my-6">
-            <p className="mb-2 text-white"><strong>KBrown Consultant</strong></p>
+            <p className="mb-2 text-white"><strong>KBrown Consultant Group LLC</strong></p>
             <p className="mb-2"><strong className="text-white/60">Email:</strong> <a href="mailto:support@kbrownconsultant.com" className="text-[#D4AF37] hover:underline">support@kbrownconsultant.com</a></p>
             <p className="mb-2"><strong className="text-white/60">Phone:</strong> <a href="tel:0000000000" className="text-[#D4AF37] hover:underline">(000) 000-0000</a></p>
             <p className="mb-0"><strong className="text-white/60">Website:</strong> <a href="https://www.kbrownconsultant.com" target="_blank" rel="noopener noreferrer" className="text-[#D4AF37] hover:underline">www.kbrownconsultant.com</a></p>
@@ -116,7 +116,7 @@ export default function AccessibilityContent() {
           <div className="my-12 p-8 rounded-2xl bg-[#D4AF37]/10 border border-[#D4AF37]/20">
             <h3 className="text-2xl font-heading text-[#D4AF37] mt-0 mb-4">Our Promise</h3>
             <p className="text-white/90">
-              At KBrown Consultant, we believe accessibility is an important part of creating an exceptional online experience.
+              At KBrown Consultant Group LLC, we believe accessibility is an important part of creating an exceptional online experience.
             </p>
             <p className="text-white/90 mb-0">
               We remain committed to improving our website, embracing accessibility best practices, and ensuring our educational resources and services are available to as many people as possible.
@@ -124,7 +124,7 @@ export default function AccessibilityContent() {
           </div>
 
           <p className="text-center text-white/60 mt-12 font-medium">
-            Thank you for visiting KBrown Consultant.
+            Thank you for visiting KBrown Consultant Group LLC.
           </p>
         </motion.div>
       </div>

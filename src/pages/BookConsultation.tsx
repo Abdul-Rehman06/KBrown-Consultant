@@ -24,8 +24,8 @@ export default function BookConsultation() {
   return (
     <main className="bg-[#0B1523] min-h-screen">
       <SEO 
-        title="Book a Consultation | KBrown Consultant"
-        description="Schedule a personalized consultation with KBrown Consultant. Explore funding opportunities and seek strategic guidance for your next business move."
+        title="Book a Consultation | KBrown Consultant Group LLC"
+        description="Schedule a personalized consultation with KBrown Consultant Group LLC. Explore funding opportunities and seek strategic guidance for your next business move."
       />
       <BookingCalendar />
       <BookingAbout />
