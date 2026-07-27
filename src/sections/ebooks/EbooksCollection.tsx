@@ -46,11 +46,11 @@ export default function EbooksCollection() {
                     <div className="absolute inset-0 bg-gradient-to-br from-[#D4AF37]/0 to-transparent group-hover:from-[#D4AF37]/5 rounded-3xl transition-colors duration-500" />
                     
                     {ebook.image ? (
-                      <div className="w-full aspect-[4/3] rounded-2xl bg-black/40 mb-6 relative z-10 overflow-hidden border border-white/5 group-hover:border-[#D4AF37]/30 transition-colors">
+                      <div className="w-full h-25 rounded-2xl bg-black/40 mb-6 relative z-10 overflow-hidden border border-white/5 group-hover:border-[#D4AF37]/30 transition-colors">
                         <img 
                           src={ebook.image} 
                           alt={ebook.title} 
-                          className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
+                          className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500"
                         />
                       </div>
                     ) : (
