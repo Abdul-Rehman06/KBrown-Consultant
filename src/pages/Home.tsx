@@ -4,6 +4,7 @@ import Services from '../sections/home/Services';
 import HowWeWork from '../sections/home/HowWeWork';
 import FundingSolutions from '../sections/home/FundingSolutions';
 import CreditEducation from '../sections/home/CreditEducation';
+import TradelinesPreview from '../sections/home/TradelinesPreview';
 import ResourcesPreview from '../sections/home/ResourcesPreview';
 import WhyChooseUs from '../sections/home/WhyChooseUs';
 import Metrics from '../sections/home/Metrics';
@@ -24,6 +25,7 @@ export default function Home() {
       <HowWeWork />
       <FundingSolutions />
       <CreditEducation />
+      <TradelinesPreview />
       <ResourcesPreview />
       <WhyChooseUs />
       <Metrics />

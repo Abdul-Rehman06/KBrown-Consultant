@@ -31,6 +31,7 @@ export default function Navbar() {
       dropdown: [
         { name: 'Business Funding', path: '/funding' },
         { name: 'Credit Education', path: '/credit-education' },
+        { name: 'Tradelines', path: '/tradelines' },
       ]
     },
     { 

@@ -13,6 +13,7 @@ import CreditEducation from './pages/CreditEducation';
 import Resources from './pages/Resources';
 import Ebooks from './pages/Ebooks';
 import Guides from './pages/Guides';
+import Tradelines from './pages/Tradelines';
 import BookConsultation from './pages/BookConsultation';
 import Services from './pages/Services';
 import SuccessStories from './pages/SuccessStories';
@@ -65,6 +66,7 @@ function App() {
         <Route path="resources" element={<Resources />} />
         <Route path="ebooks" element={<Ebooks />} />
         <Route path="guides" element={<Guides />} />
+        <Route path="tradelines" element={<Tradelines />} />
         <Route path="faq" element={<FAQ />} />
         <Route path="contact" element={<Contact />} />
         <Route path="book-consultation" element={<BookConsultation />} />
