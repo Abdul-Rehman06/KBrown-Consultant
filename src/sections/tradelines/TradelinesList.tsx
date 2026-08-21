@@ -1,10 +1,56 @@
-import { motion } from 'framer-motion';
-import { CreditCard, Calendar, TrendingUp, Users, FileText, CheckCircle2, Shield } from 'lucide-react';
+import { AnimatePresence, motion } from 'framer-motion';
+import { Calendar, CheckCircle2, CreditCard, FileText, Shield, TrendingUp, Users, X } from 'lucide-react';
 import Tilt from 'react-parallax-tilt';
+import { useEffect, useMemo, useState } from 'react';
 import { tradelinesData } from '../../data/tradelines';
-import { Link } from 'react-router-dom';
 
 export default function TradelinesList() {
+  const [open, setOpen] = useState(false);
+  const [selectedTradelineId, setSelectedTradelineId] = useState<string | null>(null);
+
+  const selectedTradeline = useMemo(() => {
+    if (!selectedTradelineId) return null;
+    return tradelinesData.find((x) => x.id === selectedTradelineId) ?? null;
+  }, [selectedTradelineId]);
+
+  useEffect(() => {
+    if (!open) return;
+
+    const existing = document.querySelector<HTMLScriptElement>(
+      'script[src="https://api.kbrownconsultant.com/js/form_embed.js"]'
+    );
+
+    if (existing) return;
+
+    const script = document.createElement('script');
+    script.src = 'https://api.kbrownconsultant.com/js/form_embed.js';
+    script.async = true;
+    document.body.appendChild(script);
+  }, [open]);
+
+  useEffect(() => {
+    if (!open) return;
+
+    const prevOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setOpen(false);
+    };
+
+    window.addEventListener('keydown', onKeyDown);
+
+    return () => {
+      document.body.style.overflow = prevOverflow;
+      window.removeEventListener('keydown', onKeyDown);
+    };
+  }, [open]);
+
+  const openForm = (tradelineId: string) => {
+    setSelectedTradelineId(tradelineId);
+    setOpen(true);
+  };
+
   return (
     <section className="py-24 relative bg-[#0B1523]">
       <div className="container mx-auto px-4">
@@ -83,19 +129,80 @@ export default function TradelinesList() {
                     </div>
                   </div>
 
-                  <Link 
-                    to="/book-consultation"
+                  <button
+                    type="button"
+                    onClick={() => openForm(tradeline.id)}
                     className="w-full relative z-10 bg-transparent border border-[#D4AF37] text-[#D4AF37] hover:bg-[#D4AF37] hover:text-[#0B1523] px-6 py-3 rounded-xl font-semibold transition-all duration-300 flex items-center justify-center gap-2 group/btn mt-auto"
                   >
                     <span>Choose This Tradeline</span>
                     <CheckCircle2 className="w-4 h-4 group-hover/btn:scale-110 transition-transform" />
-                  </Link>
+                  </button>
                 </div>
               </Tilt>
             </motion.div>
           ))}
         </div>
       </div>
+
+      <AnimatePresence>
+        {open && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.2 }}
+            className="fixed inset-0 z-[60] bg-black/70 backdrop-blur-xl flex items-center justify-center p-4"
+            onClick={() => setOpen(false)}
+          >
+            <motion.div
+              initial={{ opacity: 0, y: 12, scale: 0.98 }}
+              animate={{ opacity: 1, y: 0, scale: 1 }}
+              exit={{ opacity: 0, y: 12, scale: 0.98 }}
+              transition={{ duration: 0.25 }}
+              className="w-full max-w-4xl bg-[#0B1523] border border-white/10 rounded-3xl overflow-hidden shadow-2xl"
+              onClick={(e) => e.stopPropagation()}
+            >
+              <div className="px-6 py-5 border-b border-white/10 flex items-center justify-between">
+                <div>
+                  <div className="text-xs uppercase tracking-wider text-[#D4AF37] font-semibold">Tradelines Form</div>
+                  <div className="text-lg md:text-xl font-heading text-white">
+                    {selectedTradeline?.name ?? 'Choose This Tradeline'}
+                  </div>
+                </div>
+                <button
+                  type="button"
+                  onClick={() => setOpen(false)}
+                  className="w-10 h-10 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 transition-colors flex items-center justify-center text-white/70 hover:text-white"
+                >
+                  <X className="w-5 h-5" />
+                </button>
+              </div>
+
+              <div className="p-4 md:p-6">
+                <div className="w-full h-[70vh] min-h-[520px] max-h-[760px] bg-black/20 border border-white/10 rounded-2xl overflow-hidden">
+                  <iframe
+                    src="https://api.kbrownconsultant.com/widget/form/6u5ymHnjsWJYSyabGXHR"
+                    style={{ width: '100%', height: '100%', border: 'none', borderRadius: '0px' }}
+                    id="inline-6u5ymHnjsWJYSyabGXHR"
+                    data-layout="{'id':'INLINE'}"
+                    data-trigger-type="alwaysShow"
+                    data-trigger-value=""
+                    data-activation-type="alwaysActivated"
+                    data-activation-value=""
+                    data-deactivation-type="neverDeactivate"
+                    data-deactivation-value=""
+                    data-form-name="Tradelines Form"
+                    data-height="432"
+                    data-layout-iframe-id="inline-6u5ymHnjsWJYSyabGXHR"
+                    data-form-id="6u5ymHnjsWJYSyabGXHR"
+                    title="Tradelines Form"
+                  />
+                </div>
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </section>
   );
 }
