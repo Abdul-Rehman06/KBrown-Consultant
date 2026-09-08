@@ -14,6 +14,9 @@ import Resources from './pages/Resources';
 import Ebooks from './pages/Ebooks';
 import Guides from './pages/Guides';
 import Tradelines from './pages/Tradelines';
+import LlcServices from './pages/llc/LlcServices';
+import LlcFormation from './pages/llc/LlcFormation';
+import LlcDissolution from './pages/llc/LlcDissolution';
 import BookConsultation from './pages/BookConsultation';
 import Services from './pages/Services';
 import SuccessStories from './pages/SuccessStories';
@@ -67,6 +70,9 @@ function App() {
         <Route path="ebooks" element={<Ebooks />} />
         <Route path="guides" element={<Guides />} />
         <Route path="tradelines" element={<Tradelines />} />
+        <Route path="llc-services" element={<LlcServices />} />
+        <Route path="llc-formation" element={<LlcFormation />} />
+        <Route path="llc-dissolution" element={<LlcDissolution />} />
         <Route path="faq" element={<FAQ />} />
         <Route path="contact" element={<Contact />} />
         <Route path="book-consultation" element={<BookConsultation />} />
