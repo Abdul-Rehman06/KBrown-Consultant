@@ -13,11 +13,11 @@ export default function FormationAuthorization() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto bg-white/5 border border-white/10 rounded-3xl p-8 md:p-12 backdrop-blur-xl">
             <h1 className="text-3xl md:text-4xl font-heading text-white mb-6">
-              Authorization Letter — Permission for KBCG to Act on Your Behalf
+              Authorization LetterPermission for KBCG to Act on Your Behalf
             </h1>
             
             <p className="text-white/80 mb-8 leading-relaxed">
-              I hereby authorize K Brown Consultant Group (KBCG) and its authorized representatives to act on my behalf in all matters related to the formation of my new LLC — including filing with the Florida Division of Corporations, applying for an EIN with the IRS, and coordinating with any applicable agencies.
+              I hereby authorize K Brown Consultant Group (KBCG) and its authorized representatives to act on my behalf in all matters related to the formation of my new LLCincluding filing with the Florida Division of Corporations, applying for an EIN with the IRS, and coordinating with any applicable agencies.
             </p>
 
             <div className="space-y-8">

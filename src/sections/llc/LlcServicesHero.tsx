@@ -64,7 +64,7 @@ export default function LlcServicesHero() {
                   <h3 className="text-3xl font-heading text-white mb-4">Start a New LLC</h3>
                   
                   <p className="text-white/70 mb-8 leading-relaxed">
-                    Get your business legally formed the right way — name search, Articles of Organization, EIN, and a Registered Agent set up correctly from day one.
+                    Get your business legally formed the right wayname search, Articles of Organization, EIN, and a Registered Agent set up correctly from day one.
                   </p>
 
                   <div className="text-2xl text-white font-heading mb-8">
@@ -101,7 +101,7 @@ export default function LlcServicesHero() {
                   <h3 className="text-3xl font-heading text-white mb-4">Dissolve an Existing LLC</h3>
                   
                   <p className="text-white/70 mb-8 leading-relaxed">
-                    Close your LLC properly — verified dissolution status, Certificate of Status, and guidance on closing accounts, licenses, and final filings.
+                    Close your LLC properlyverified dissolution status, Certificate of Status, and guidance on closing accounts, licenses, and final filings.
                   </p>
 
                   <div className="text-2xl text-white font-heading mb-8">

@@ -13,7 +13,7 @@ export default function DissolutionAuthorization() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto bg-white/5 border border-white/10 rounded-3xl p-8 md:p-12 backdrop-blur-xl">
             <h1 className="text-3xl md:text-4xl font-heading text-white mb-6">
-              Authorization Letter — Permission for KBCG to Act on Your Behalf
+              Authorization LetterPermission for KBCG to Act on Your Behalf
             </h1>
             
             <p className="text-white/80 mb-8 leading-relaxed">

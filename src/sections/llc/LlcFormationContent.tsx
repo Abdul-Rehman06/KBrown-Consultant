@@ -37,7 +37,7 @@ export default function LlcFormationContent() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-lg text-white/70 leading-relaxed max-w-2xl mx-auto"
           >
-            Pick your package and tell us a bit about your business — we'll send your payment link right away.
+            Pick your package and tell us a bit about your businesswe'll send your payment link right away.
           </motion.p>
         </div>
 
@@ -98,13 +98,13 @@ export default function LlcFormationContent() {
           <div className="bg-white/5 border border-white/10 rounded-3xl p-8 md:p-12 backdrop-blur-xl relative">
             <h3 className="text-2xl font-heading text-white mb-2">Your Information</h3>
             <p className="text-white/60 mb-8">
-              Payment is required before formation work begins. Once you submit, we'll send a payment link matching your selected package. Full paperwork — Service Agreement, Authorization, and state selection — is sent after payment.
+              Payment is required before formation work begins. Once you submit, we'll send a payment link matching your selected package. Full paperworkService Agreement, Authorization, and state selectionis sent after payment.
             </p>
 
             <div className="w-full min-h-[638px] bg-transparent rounded-xl overflow-hidden">
               <iframe
                 src="https://api.kbrownconsultant.com/widget/form/alp4aaUEg0JmsfytdKuk"
-                style={{ width: '100%', height: '100%', border: 'none', borderRadius: '0px', minHeight: '638px' }}
+                style={{ width: '100%', height: '100%', border: 'none', borderRadius: '0px', minHeight: '1000px' }}
                 id="inline-alp4aaUEg0JmsfytdKuk" 
                 data-layout="{'id':'INLINE'}"
                 data-trigger-type="alwaysShow"

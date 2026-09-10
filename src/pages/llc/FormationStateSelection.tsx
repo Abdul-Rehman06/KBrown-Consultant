@@ -31,12 +31,12 @@ export default function FormationStateSelection() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="bg-white/5 border border-white/10 rounded-3xl p-4 md:p-8 backdrop-blur-xl"
+              className="rounded-3xl p-4 md:p-8 backdrop-blur-xl"
             >
-              <div className="w-full bg-transparent rounded-xl overflow-hidden" style={{ minHeight: '1200px' }}>
+              <div className="w-full rounded-xl overflow-hidden" style={{ minHeight: '2000px' }}>
                 <iframe 
                   src="https://api.kbrownconsultant.com/widget/survey/GEwQGPGVStrwj67bJCyg" 
-                  style={{ border: 'none', width: '100%', minHeight: '1200px', height: '100%' }} 
+                  style={{ border: 'none', width: '100%', minHeight: '2000px', height: '100%' }} 
                   scrolling="yes" 
                   id="GEwQGPGVStrwj67bJCyg" 
                   title="survey" 
