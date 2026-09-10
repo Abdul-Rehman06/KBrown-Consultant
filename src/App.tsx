@@ -27,6 +27,13 @@ import Terms from './pages/Terms';
 import Disclaimer from './pages/Disclaimer';
 import Accessibility from './pages/Accessibility';
 import ThankYou from './pages/ThankYou';
+
+// Legal Hidden Pages
+import FormationAgreement from './pages/legal/FormationAgreement';
+import FormationAuthorization from './pages/legal/FormationAuthorization';
+import DissolutionAgreement from './pages/legal/DissolutionAgreement';
+import DissolutionAuthorization from './pages/legal/DissolutionAuthorization';
+
 import AdminLogin from './pages/admin/AdminLogin';
 import AdminDashboard from './pages/admin/AdminDashboard';
 import SEO from './components/SEO';
@@ -80,6 +87,13 @@ function App() {
         <Route path="terms" element={<Terms />} />
         <Route path="disclaimer" element={<Disclaimer />} />
         <Route path="accessibility" element={<Accessibility />} />
+        
+        {/* Hidden Legal Pages */}
+        <Route path="formation-agreement" element={<FormationAgreement />} />
+        <Route path="formation-authorization" element={<FormationAuthorization />} />
+        <Route path="dissolution-agreement" element={<DissolutionAgreement />} />
+        <Route path="dissolution-authorization" element={<DissolutionAuthorization />} />
+
         <Route path="thank-you" element={<ThankYou />} />
         <Route path="*" element={<div className="h-screen flex items-center justify-center text-4xl font-heading text-gold"><SEO title="404 - Not Found | KBrown Consultant Group LLC" description="The page you are looking for does not exist." noindex={true} />404 - Not Found</div>} />
       </Route>
