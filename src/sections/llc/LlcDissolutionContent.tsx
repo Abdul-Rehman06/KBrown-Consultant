@@ -101,12 +101,11 @@ export default function LlcDissolutionContent() {
               Payment is required before dissolution work begins. Once you submit, we'll send a payment link matching your selected package. Full paperwork — Service Agreement, Authorization, and the financial intake form — is sent after payment.
             </p>
 
-            <div className="w-full min-h-[600px] bg-transparent rounded-xl overflow-hidden">
-              {/* REPLACE WITH ACTUAL GHL IFRAME FOR DISSOLUTION */}
+            <div className="w-full min-h-[638px] bg-transparent rounded-xl overflow-hidden">
               <iframe
-                src="https://api.ahriat.com/widget/form/DISSOLUTION_FORM_ID_HERE"
-                style={{ width: '100%', height: '100%', border: 'none', borderRadius: '5px', minHeight: '600px' }}
-                id="inline-DISSOLUTION_FORM_ID_HERE"
+                src="https://api.kbrownconsultant.com/widget/form/9v2H02FKbVXcABdJ9XBL"
+                style={{ width: '100%', height: '100%', border: 'none', borderRadius: '0px', minHeight: '638px' }}
+                id="inline-9v2H02FKbVXcABdJ9XBL" 
                 data-layout="{'id':'INLINE'}"
                 data-trigger-type="alwaysShow"
                 data-trigger-value=""
@@ -114,14 +113,16 @@ export default function LlcDissolutionContent() {
                 data-activation-value=""
                 data-deactivation-type="neverDeactivate"
                 data-deactivation-value=""
-                data-form-name="LLC Dissolution Form"
-                data-height="600"
-                data-layout-iframe-id="inline-DISSOLUTION_FORM_ID_HERE"
-                data-form-id="DISSOLUTION_FORM_ID_HERE"
-                title="LLC Dissolution Form"
+                data-form-name="LLC Dissolution"
+                data-height="638"
+                data-layout-iframe-id="inline-9v2H02FKbVXcABdJ9XBL"
+                data-form-id="9v2H02FKbVXcABdJ9XBL"
+                data-cookie-consent="true"
+                data-cookie-consent-provider="auto"
+                title="LLC Dissolution"
               >
               </iframe>
-              <script src="https://api.ahriat.com/js/form_embed.js"></script>
+              <script src="https://api.kbrownconsultant.com/js/form_embed.js"></script>
             </div>
           </div>
         </motion.div>

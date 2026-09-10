@@ -17,6 +17,12 @@ import Tradelines from './pages/Tradelines';
 import LlcServices from './pages/llc/LlcServices';
 import LlcFormation from './pages/llc/LlcFormation';
 import LlcDissolution from './pages/llc/LlcDissolution';
+
+// Hidden LLC Post-Payment Pages
+import FormationPacket from './pages/llc/FormationPacket';
+import FormationStateSelection from './pages/llc/FormationStateSelection';
+import DissolutionPacket from './pages/llc/DissolutionPacket';
+
 import BookConsultation from './pages/BookConsultation';
 import Services from './pages/Services';
 import SuccessStories from './pages/SuccessStories';
@@ -78,6 +84,9 @@ function App() {
         <Route path="guides" element={<Guides />} />
         <Route path="tradelines" element={<Tradelines />} />
         <Route path="llc-services" element={<LlcServices />} />
+        {/* Alias URLs for the LLC form pages (from doc) */}
+        <Route path="llc-formation-form" element={<LlcFormation />} />
+        <Route path="llc-dissolution-form" element={<LlcDissolution />} />
         <Route path="llc-formation" element={<LlcFormation />} />
         <Route path="llc-dissolution" element={<LlcDissolution />} />
         <Route path="faq" element={<FAQ />} />
@@ -93,6 +102,11 @@ function App() {
         <Route path="formation-authorization" element={<FormationAuthorization />} />
         <Route path="dissolution-agreement" element={<DissolutionAgreement />} />
         <Route path="dissolution-authorization" element={<DissolutionAuthorization />} />
+
+        {/* Hidden LLC Post-Payment Pages */}
+        <Route path="formation-packet" element={<FormationPacket />} />
+        <Route path="formation-state-selection" element={<FormationStateSelection />} />
+        <Route path="dissolution-packet" element={<DissolutionPacket />} />
 
         <Route path="thank-you" element={<ThankYou />} />
         <Route path="*" element={<div className="h-screen flex items-center justify-center text-4xl font-heading text-gold"><SEO title="404 - Not Found | KBrown Consultant Group LLC" description="The page you are looking for does not exist." noindex={true} />404 - Not Found</div>} />
