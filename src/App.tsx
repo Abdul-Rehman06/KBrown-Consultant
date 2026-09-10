@@ -21,7 +21,9 @@ import LlcDissolution from './pages/llc/LlcDissolution';
 // Hidden LLC Post-Payment Pages
 import FormationPacket from './pages/llc/FormationPacket';
 import FormationStateSelection from './pages/llc/FormationStateSelection';
+import FormationStateThankYou from './pages/llc/FormationStateThankYou';
 import DissolutionPacket from './pages/llc/DissolutionPacket';
+import DissolutionPacketThankYou from './pages/llc/DissolutionPacketThankYou';
 
 import BookConsultation from './pages/BookConsultation';
 import Services from './pages/Services';
@@ -106,7 +108,9 @@ function App() {
         {/* Hidden LLC Post-Payment Pages */}
         <Route path="formation-packet" element={<FormationPacket />} />
         <Route path="formation-state-selection" element={<FormationStateSelection />} />
+        <Route path="formation-state-thank-you" element={<FormationStateThankYou />} />
         <Route path="dissolution-packet" element={<DissolutionPacket />} />
+        <Route path="dissolution-packet-thank-you" element={<DissolutionPacketThankYou />} />
 
         <Route path="thank-you" element={<ThankYou />} />
         <Route path="*" element={<div className="h-screen flex items-center justify-center text-4xl font-heading text-gold"><SEO title="404 - Not Found | KBrown Consultant Group LLC" description="The page you are looking for does not exist." noindex={true} />404 - Not Found</div>} />
