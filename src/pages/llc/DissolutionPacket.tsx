@@ -33,11 +33,11 @@ export default function DissolutionPacket() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="bg-white/5 border border-white/10 rounded-3xl p-4 md:p-8 backdrop-blur-xl"
             >
-              <div className="w-full min-h-[900px] bg-transparent rounded-xl overflow-hidden">
+              <div className="w-full bg-transparent rounded-xl overflow-hidden" style={{ minHeight: '1200px' }}>
                 <iframe 
                   src="https://api.kbrownconsultant.com/widget/survey/kHE6KMYc7XNxCWBevaXB" 
-                  style={{ border: 'none', width: '100%', minHeight: '900px' }} 
-                  scrolling="no" 
+                  style={{ border: 'none', width: '100%', minHeight: '1200px', height: '100%' }} 
+                  scrolling="yes" 
                   id="kHE6KMYc7XNxCWBevaXB" 
                   title="survey" 
                   data-cookie-consent="true" 

@@ -33,11 +33,11 @@ export default function FormationStateSelection() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="bg-white/5 border border-white/10 rounded-3xl p-4 md:p-8 backdrop-blur-xl"
             >
-              <div className="w-full min-h-[800px] bg-transparent rounded-xl overflow-hidden">
+              <div className="w-full bg-transparent rounded-xl overflow-hidden" style={{ minHeight: '1200px' }}>
                 <iframe 
                   src="https://api.kbrownconsultant.com/widget/survey/GEwQGPGVStrwj67bJCyg" 
-                  style={{ border: 'none', width: '100%', minHeight: '800px' }} 
-                  scrolling="no" 
+                  style={{ border: 'none', width: '100%', minHeight: '1200px', height: '100%' }} 
+                  scrolling="yes" 
                   id="GEwQGPGVStrwj67bJCyg" 
                   title="survey" 
                   data-cookie-consent="true" 
